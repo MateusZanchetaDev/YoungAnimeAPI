@@ -33,6 +33,7 @@ div {
     border: 1px solid grey;
     border-radius: 6px;
     width: 290px;
+    cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
 
