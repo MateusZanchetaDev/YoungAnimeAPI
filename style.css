@@ -23,21 +23,21 @@ body {
 }
 
 img, .details {
-    width: 215px;
+    width: 275px;
 }
 
-div {
+.anime-project {
     display: flex;
     align-items: center;
     flex-direction: column;
     border: 1px solid grey;
     border-radius: 6px;
-    width: 290px;
+    width: 340px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
 
-div:hover {
+.anime-project:hover {
    transform: scale(1.01);
 }
 
@@ -63,11 +63,11 @@ div:hover {
     display: flex;
     margin-right: 15px;
 }
+
 .genres-list li {
     margin-right: 20px;
-    border: 3px solid grey;
-    background-color: grey;
-    font-weight: bold;
+    border: 2px solid grey;
+    padding: 6px;
     width: 100%;
     border-radius: 8px;
 }
