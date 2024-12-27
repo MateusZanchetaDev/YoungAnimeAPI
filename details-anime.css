@@ -107,15 +107,15 @@ footer {
 
     h2 {
         width: 40%;
-        margin-left: 14px;
+        margin-left: 140px;
         text-align: center;
         font-size: 17px;
     }
 
     img {
-        width: 180px;
+        width: 280px;
         border-radius: 4px;
-        margin-left: 15px;
+        margin-left: 90px;
     }
 
     .anime-details p {
@@ -129,12 +129,13 @@ footer {
     }
 
     .trailer h3 {
-        margin-top: 340px;
+        margin-top: 810px;
     }
 
     .trailer iframe {
         width: 415px;
         height: 250px;
         margin-left: -30px;
+        margin-bottom: 40px;
     }
 }
