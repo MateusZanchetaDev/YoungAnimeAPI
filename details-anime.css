@@ -38,8 +38,8 @@ body {
 }
 
 h2 {
-    width: 20%;
-    margin-left: 160px;
+    width: 40%;
+    margin-left: -40px;
     text-align: center;
 }
 
@@ -58,10 +58,11 @@ img {
 
 .trailer {
     margin-left: 40%;
+    position: absolute;
 }
 
 .trailer h3 {
-    margin-top: -676px;
+    margin-top: 80px;
 }
 
 .trailer iframe {
