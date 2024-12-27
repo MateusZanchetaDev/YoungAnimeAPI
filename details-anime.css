@@ -74,3 +74,67 @@ footer {
     margin: 40px;
     text-align: center;
 }
+
+
+
+@media screen and (max-width: 450px) {
+    .content-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 60px;
+    }
+
+    .title-site {
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    .anime-project {
+        display: flex;
+        width: 250px;
+        height: 150px;
+    }
+
+    .details-main {
+        display: flex;
+    }
+
+    .anime-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        width: 40%;
+        margin-left: 14px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    img {
+        width: 180px;
+        border-radius: 4px;
+        margin-left: 15px;
+    }
+
+    .anime-details p {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .trailer {
+        margin-left: 10%;
+        position: absolute;
+    }
+
+    .trailer h3 {
+        margin-top: 54px;
+    }
+
+    .trailer iframe {
+        width: 215px;
+        height: 250px;
+        margin-left: 165px;
+    }
+}
