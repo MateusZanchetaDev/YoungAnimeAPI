@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.title-site {
+    text-align: center;
+    margin: 60px 40px;
+}
+
+.title-site span {
+    color: #808080;
+}
+
+.anime-project {
+    display: flex;
+    width: 250px;
+    height: 150px;
+}
+
+.details-main {
+    display: flex;
+}
+
+.anime-details {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    width: 20%;
+    margin-left: 160px;
+    text-align: center;
+}
+
+img {
+    width: 380px;
+    border-radius: 4px;
+    margin-left: 155px;
+}
+
+.anime-details p {
+    width: 83%;
+    margin-left: 160px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.trailer {
+    margin-left: 40%;
+}
+
+.trailer h3 {
+    margin-top: -676px;
+}
+
+.trailer iframe {
+    margin-left: -180px;
+}
+
+
+footer {
+    margin: 40px;
+    text-align: center;
+}

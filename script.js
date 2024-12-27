@@ -11,10 +11,14 @@ function GetApiAnimesAndMangas() {
 
         const animes = data.data;
 
-        animes.map(item => {
+        animes.forEach(item => {
 
             let project = document.createElement('div');
             project.classList.add('anime-project');
+            project.addEventListener('click', () => {
+                localStorage.setItem('animeId', item.mal_id);
+                window.location.href = 'details-anime.html';
+            });
 
             let title = document.createElement('p');
             title.classList.add('title');
