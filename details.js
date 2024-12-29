@@ -32,7 +32,8 @@ function GetApiDetailsAnime() {
             let trailer = document.createElement('div');
             trailer.classList.add('trailer');
 
-            if (anime.trailer?.embed_url) {
+            if (anime.trailer?.embed_url) 
+            {
                 trailer.innerHTML = `
                     <h3></h3>
                     <iframe 
@@ -45,7 +46,20 @@ function GetApiDetailsAnime() {
                         allowfullscreen>
                     </iframe>`;
             } 
-            else { trailer.innerHTML = '<p>Trailer não disponível.</p>'; }
+            else
+            { 
+                let noTrailerMessage = document.createElement('p');
+                noTrailerMessage.classList.add('no-trailer');
+                noTrailerMessage.textContent = 'Trailer não disponível :(';
+
+                let gif = document.createElement('img');
+                gif.classList.add('gif');
+                gif.src = 'img/animeCryTrailer.gif';
+                gif.alt = 'Trailer não está disponível';
+                
+                trailer.appendChild(noTrailerMessage);
+                trailer.appendChild(gif);
+            }
 
             project.appendChild(title);
             project.appendChild(img);
